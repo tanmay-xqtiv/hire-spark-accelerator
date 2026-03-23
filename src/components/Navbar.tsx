@@ -11,6 +11,7 @@ const navItems = [
 
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
 
   const scrollTo = (href: string) => {
     setMobileOpen(false);
