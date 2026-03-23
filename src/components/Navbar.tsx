@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Reveal } from "./Reveal";
+import { useNavigate } from "react-router-dom";
 
 const navItems = [
   { label: "What is xyrus", href: "#what-is-xyrus" },
