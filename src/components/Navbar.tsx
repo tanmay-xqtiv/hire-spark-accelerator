@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Reveal } from "./Reveal";
+import { useNavigate } from "react-router-dom";
 
 const navItems = [
   { label: "What is xyrus", href: "#what-is-xyrus" },
@@ -11,6 +11,7 @@ const navItems = [
 
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
 
   const scrollTo = (href: string) => {
     setMobileOpen(false);
@@ -43,10 +44,10 @@ export const Navbar = () => {
               </button>
             ))}
             <button
-              onClick={() => scrollTo("#contact")}
+              onClick={() => navigate("/login")}
               className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm hover:opacity-90 transition-opacity active:scale-[0.97]"
             >
-              Book Demo
+              Login
             </button>
           </div>
 
@@ -84,10 +85,10 @@ export const Navbar = () => {
                   </button>
                 ))}
                 <button
-                  onClick={() => scrollTo("#contact")}
+                  onClick={() => navigate("/login")}
                   className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm mt-2"
                 >
-                  Book Demo
+                  Login
                 </button>
               </div>
             </motion.div>

@@ -18,13 +18,11 @@ export const Reveal = ({ children, delay = 0, direction = "up", className }: Rev
       opacity: 0,
       y: direction === "up" ? 20 : 0,
       x: direction === "left" ? -20 : direction === "right" ? 20 : 0,
-      filter: "blur(4px)",
     },
     visible: {
       opacity: 1,
       y: 0,
       x: 0,
-      filter: "blur(0px)",
     },
   };
 
