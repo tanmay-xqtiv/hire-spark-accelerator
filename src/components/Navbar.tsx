@@ -84,10 +84,10 @@ export const Navbar = () => {
                   </button>
                 ))}
                 <button
-                  onClick={() => scrollTo("#contact")}
+                  onClick={() => navigate("/login")}
                   className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm mt-2"
                 >
-                  Book Demo
+                  Login
                 </button>
               </div>
             </motion.div>

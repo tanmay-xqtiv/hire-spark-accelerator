@@ -47,7 +47,7 @@ export const WhatIsXyrus = () => {
         <Reveal delay={0.35}>
           <div className="mt-20 pt-12 border-t border-border flex items-center gap-6">
             <div className="w-12 h-[1px] bg-crimson" />
-            <p className="font-mono-brand text-xs tracking-widest text-muted-foreground uppercase">
+            <p className="font-mono-brand text-sm md:text-base tracking-widest text-muted-foreground uppercase">
               An executive search process that begins with clarity, not guesswork
             </p>
           </div>
