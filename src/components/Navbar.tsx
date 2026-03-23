@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-  { label: "What is xyrus", href: "#what-is-xyrus" },
-  { label: "The Problem", href: "#problem" },
-  { label: "How It Works", href: "#how-it-works" },
+  { label: "Product", href: "#what-is-xyrus" },
+  { label: "Solutions", href: "#problem" },
+  { label: "Services", href: "#how-it-works" },
   { label: "Contact", href: "#contact" },
 ];
 
