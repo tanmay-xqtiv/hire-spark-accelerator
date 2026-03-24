@@ -1,14 +1,33 @@
 import { Reveal } from "./Reveal";
+import { motion } from "framer-motion";
+
+const personas = [
+  {
+    title: "For Talent Acquisition Teams",
+    description: "Eliminate weeks of manual market mapping. xyrus gives you a pre-assessed, continuously enriched pool of leadership candidates — so you start every search with clarity, not a blank page.",
+    icon: "🎯",
+  },
+  {
+    title: "For Candidates",
+    description: "Your profile grows richer with every interaction. xyrus captures your leadership philosophy, strategic thinking, and career trajectory — ensuring you're evaluated on merit, not just a resume.",
+    icon: "👤",
+  },
+  {
+    title: "For C-Suite & Board Members",
+    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus provides the evidence and confidence needed to select leaders who will drive real impact.",
+    icon: "🏛️",
+  },
+];
 
 export const WhatIsXyrus = () => {
   return (
-    <section id="what-is-xyrus" className="py-24 md:py-32 section-padding bg-background">
+    <section id="about" className="py-24 md:py-32 section-padding bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           <div>
             <Reveal>
               <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
-                What is xyrus
+                About xyrus
               </span>
             </Reveal>
             <Reveal delay={0.1}>
@@ -16,6 +35,11 @@ export const WhatIsXyrus = () => {
                 A candidate intelligence accelerator.{" "}
                 <span className="text-muted-foreground">Not a resume database.</span>
               </h2>
+            </Reveal>
+            <Reveal delay={0.15}>
+              <p className="text-base text-muted-foreground leading-relaxed mt-6">
+                We deal with narrowly defined talent pools — identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
+              </p>
             </Reveal>
           </div>
 
@@ -43,11 +67,36 @@ export const WhatIsXyrus = () => {
           </div>
         </div>
 
-        {/* Visual divider with tagline */}
+        {/* Who We Serve */}
         <Reveal delay={0.35}>
+          <div className="mt-20 pt-12 border-t border-border">
+            <span className="font-mono-brand text-[10px] tracking-[0.3em] text-crimson uppercase">
+              Who We Serve
+            </span>
+          </div>
+        </Reveal>
+
+        <div className="grid md:grid-cols-3 gap-8 mt-10">
+          {personas.map((persona, i) => (
+            <Reveal key={persona.title} delay={0.4 + i * 0.1}>
+              <motion.div
+                className="p-8 bg-off-white rounded-sm border border-border hover:border-foreground/20 transition-colors duration-300 h-full"
+                whileHover={{ y: -4 }}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="text-2xl mb-4">{persona.icon}</div>
+                <h3 className="text-base font-bold text-foreground mb-3">{persona.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">{persona.description}</p>
+              </motion.div>
+            </Reveal>
+          ))}
+        </div>
+
+        {/* Tagline */}
+        <Reveal delay={0.7}>
           <div className="mt-20 pt-12 border-t border-border flex items-center gap-6">
             <div className="w-12 h-[1px] bg-crimson" />
-            <p className="font-mono-brand text-sm md:text-base tracking-widest text-muted-foreground uppercase">
+            <p className="font-mono-brand text-base md:text-lg lg:text-xl tracking-widest text-muted-foreground uppercase">
               An executive search process that begins with clarity, not guesswork
             </p>
           </div>

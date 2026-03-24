@@ -1,10 +1,10 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { WhatIsXyrus } from "@/components/WhatIsXyrus";
-import { ProblemSection } from "@/components/ProblemSection";
-import { HowItWorks } from "@/components/HowItWorks";
+import { SolutionsSection } from "@/components/SolutionsSection";
+import { ProductSection } from "@/components/ProductSection";
 import { USPSection } from "@/components/USPSection";
-import { LeaderSpeaks } from "@/components/LeaderSpeaks";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { CTASection } from "@/components/CTASection";
 
 const Index = () => {
@@ -13,10 +13,10 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <WhatIsXyrus />
-      <ProblemSection />
-      <HowItWorks />
+      <SolutionsSection />
+      <ProductSection />
       <USPSection />
-      <LeaderSpeaks />
+      <TestimonialsSection />
       <CTASection />
     </div>
   );
