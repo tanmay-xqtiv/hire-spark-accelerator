@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-  { label: "Product", href: "#what-is-xyrus" },
-  { label: "Solutions", href: "#problem" },
-  { label: "Services", href: "#how-it-works" },
+  { label: "About", href: "#about" },
+  { label: "Solutions", href: "#solutions" },
+  { label: "Product", href: "#product" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -33,7 +33,7 @@ export const Navbar = () => {
           </button>
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <button
                 key={item.href}
@@ -45,10 +45,18 @@ export const Navbar = () => {
             ))}
             <button
               onClick={() => navigate("/login")}
-              className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm hover:opacity-90 transition-opacity active:scale-[0.97]"
+              className="text-xs tracking-wide text-steel hover:text-primary-foreground transition-colors duration-200 uppercase font-mono-brand"
             >
               Login
             </button>
+            <a
+              href="https://calendly.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm hover:opacity-90 transition-opacity active:scale-[0.97]"
+            >
+              Demo
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -85,11 +93,19 @@ export const Navbar = () => {
                   </button>
                 ))}
                 <button
-                  onClick={() => navigate("/login")}
-                  className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm mt-2"
+                  onClick={() => { setMobileOpen(false); navigate("/login"); }}
+                  className="text-xs tracking-wide text-steel hover:text-primary-foreground transition-colors uppercase font-mono-brand text-left py-2"
                 >
                   Login
                 </button>
+                <a
+                  href="https://calendly.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-crimson text-primary-foreground text-xs font-bold tracking-wider uppercase px-5 py-2 rounded-sm mt-2 text-center"
+                >
+                  Demo
+                </a>
               </div>
             </motion.div>
           )}
