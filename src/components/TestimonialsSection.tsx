@@ -4,12 +4,6 @@ import { Reveal } from "./Reveal";
 
 const testimonials = [
   {
-    quote: "This gives our clients a level of clarity and confidence that transforms hiring from a gamble into a precision process.",
-    author: "Tarun Goel",
-    role: "Managing Partner, US",
-    initials: "TG",
-  },
-  {
     quote: "xyrus fundamentally changed the way we approach leadership mandates. The pre-assessed candidate pool means we're presenting quality, not volume.",
     author: "Search Partner",
     role: "Executive Search, India",
