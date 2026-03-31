@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const solutions = [
   {
     title: "Executive Search Acceleration",
-    description: "Reduce time-to-shortlist by weeks. xyrus pre-maps and pre-assesses leadership talent continuously, so every new mandate starts with a qualified pool — not a cold search.",
+    description: "Reduce time-to-shortlist by weeks. xyrus.ai pre-maps and pre-assesses leadership talent continuously, so every new mandate starts with a qualified pool, not a cold search.",
   },
   {
     title: "Competency-Based Evaluation",
