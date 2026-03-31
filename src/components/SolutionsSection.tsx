@@ -12,7 +12,7 @@ const solutions = [
   },
   {
     title: "Continuous Talent Intelligence",
-    description: "xyrus runs 24/7 — enriching profiles, capturing recruiter insights, and integrating client feedback in real time. The platform learns and sharpens with every interaction.",
+    description: "xyrus.ai runs 24/7, enriching profiles, capturing recruiter insights, and integrating client feedback in real time. The platform learns and sharpens with every interaction.",
   },
   {
     title: "Evidence-Backed Hiring Decisions",
