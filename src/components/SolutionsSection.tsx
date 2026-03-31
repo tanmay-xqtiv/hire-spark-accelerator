@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 const solutions = [
   {
     title: "Executive Search Acceleration",
-    description: "Reduce time-to-shortlist by weeks. xyrus pre-maps and pre-assesses leadership talent continuously, so every new mandate starts with a qualified pool — not a cold search.",
+    description: "Reduce time-to-shortlist by weeks. xyrus.ai pre-maps and pre-assesses leadership talent continuously, so every new mandate starts with a qualified pool, not a cold search.",
   },
   {
     title: "Competency-Based Evaluation",
-    description: "Move beyond resumes. Our structured competency framework assesses candidates on leadership style, decision-making, and strategic orientation — the dimensions that actually predict success.",
+    description: "Move beyond resumes. Our structured competency framework assesses candidates on leadership style, decision-making, and strategic orientation, the dimensions that actually predict success.",
   },
   {
     title: "Continuous Talent Intelligence",
-    description: "xyrus runs 24/7 — enriching profiles, capturing recruiter insights, and integrating client feedback in real time. The platform learns and sharpens with every interaction.",
+    description: "xyrus.ai runs 24/7, enriching profiles, capturing recruiter insights, and integrating client feedback in real time. The platform learns and sharpens with every interaction.",
   },
   {
     title: "Evidence-Backed Hiring Decisions",
@@ -37,7 +37,7 @@ export const SolutionsSection = () => {
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            Senior leaders are hired based on two documents: an "impressive" resume and a job description written under time constraints. The whole story is not told by either. xyrus replaces that broken foundation.
+            Senior leaders are hired based on two documents: an "impressive" resume and a job description written under time constraints. The whole story is not told by either. xyrus.ai replaces that broken foundation.
           </p>
         </Reveal>
 
@@ -72,7 +72,7 @@ export const SolutionsSection = () => {
                   A bad leadership hire costs time, money, and organizational momentum.
                 </p>
                 <p className="text-steel text-sm leading-relaxed">
-                  xyrus is built to solve this. Not by making the old process faster — by replacing the foundation it runs on.
+                  xyrus.ai is built to solve this. Not by making the old process faster, by replacing the foundation it runs on.
                 </p>
               </div>
             </div>

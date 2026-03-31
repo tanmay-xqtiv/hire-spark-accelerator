@@ -34,7 +34,7 @@ export const ProblemSection = () => {
                 The JD Problem
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Job descriptions specify what a role entails on paper. They do not describe the difficulties the new leader will face — the operational environment, strategic challenges, and the culture they will inherit.
+                Job descriptions specify what a role entails on paper. They do not describe the difficulties the new leader will face, the operational environment, strategic challenges, and the culture they will inherit.
               </p>
             </div>
           </Reveal>
@@ -49,7 +49,7 @@ export const ProblemSection = () => {
                   A bad leadership hire costs time, money, and organizational momentum.
                 </p>
                 <p className="text-steel text-sm leading-relaxed">
-                  xyrus is built to solve this. Not by making the old process faster — by replacing the foundation it runs on.
+                  xyrus.ai is built to solve this. Not by making the old process faster, by replacing the foundation it runs on.
                 </p>
               </div>
             </div>

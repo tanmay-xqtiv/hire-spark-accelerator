@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 const personas = [
   {
     title: "For Talent Acquisition Teams",
-    description: "Eliminate weeks of manual market mapping. xyrus gives you a pre-assessed, continuously enriched pool of leadership candidates — so you start every search with clarity, not a blank page.",
-    icon: "🎯",
+    description: "Eliminate weeks of manual market mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity, not a blank page.",
+    number: "01",
   },
   {
     title: "For Candidates",
-    description: "Your profile grows richer with every interaction. xyrus captures your leadership philosophy, strategic thinking, and career trajectory — ensuring you're evaluated on merit, not just a resume.",
-    icon: "👤",
+    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership philosophy, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
+    number: "02",
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus provides the evidence and confidence needed to select leaders who will drive real impact.",
-    icon: "🏛️",
+    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus.ai provides the evidence and confidence needed to select leaders who will drive real impact.",
+    number: "03",
   },
 ];
 
@@ -38,7 +38,7 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed mt-6">
-                We deal with narrowly defined talent pools — identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
+                We deal with narrowly defined talent pools, identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
               </p>
             </Reveal>
           </div>
@@ -46,22 +46,22 @@ export const WhatIsXyrus = () => {
           <div className="space-y-6">
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Most executive searches spend their first several weeks doing work — mapping the market, identifying who is relevant, and building a baseline understanding of the talent. By the time evaluation begins, speed derails.
+                Most executive searches spend their first several weeks doing work, mapping the market, identifying who is relevant, and building a baseline understanding of the talent. By the time evaluation begins, speed derails.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-base font-bold text-foreground">
-                xyrus fixes that.
+                xyrus.ai fixes that.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Every candidate profile consists of their LinkedIn information, resumes, recruiter conversations, past client feedback — and gets enriched with every interaction. There is never a cold start to a search.
+                Every candidate profile consists of their LinkedIn information, resumes, recruiter conversations, past client feedback and gets enriched with every interaction. There is never a cold start to a search.
               </p>
             </Reveal>
             <Reveal delay={0.3}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                When a new mandate arrives, xyrus already has a pool of leaders that have been pre-assessed using our structured competency framework.
+                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed using our structured competency framework.
               </p>
             </Reveal>
           </div>
@@ -84,7 +84,7 @@ export const WhatIsXyrus = () => {
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="text-2xl mb-4">{persona.icon}</div>
+                <div className="font-mono-brand text-xs text-crimson font-bold mb-4">{persona.number}</div>
                 <h3 className="text-base font-bold text-foreground mb-3">{persona.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{persona.description}</p>
               </motion.div>

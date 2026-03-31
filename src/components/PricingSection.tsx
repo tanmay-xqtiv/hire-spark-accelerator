@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Essentials",
-    description: "For boutique search firms getting started with xyrus.",
+    description: "For boutique search firms getting started with xyrus.ai.",
     price: "Contact Us",
     features: [
       "Access to pre-assessed talent pool",
@@ -62,7 +62,7 @@ export const PricingSection = () => {
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            Whether you're a solo practitioner or a global search firm, xyrus has a plan that fits your practice.
+            Whether you're a solo practitioner or a global search firm, xyrus.ai has a plan that fits your practice.
           </p>
         </Reveal>
 

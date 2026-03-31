@@ -37,7 +37,7 @@ export const HeroSection = () => {
 
             <Reveal delay={0.35}>
               <p className="text-lg md:text-xl text-steel max-w-2xl leading-relaxed mb-12">
-                xyrus is XQtiv's talent intelligence platform built to make leadership hiring faster, smarter, and backed by evidence rather than instinct.
+                xyrus.ai is XQtiv's talent intelligence platform built to make leadership hiring faster, smarter, and backed by evidence rather than instinct.
               </p>
             </Reveal>
 
