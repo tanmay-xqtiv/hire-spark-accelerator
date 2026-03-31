@@ -16,7 +16,7 @@ const testimonials = [
     initials: "SC",
   },
   {
-    quote: "The competency framework xyrus uses gives us a shared language with our clients. We're no longer debating gut feelings — we're aligning on evidence.",
+    quote: "The competency framework xyrus.ai uses gives us a shared language with our clients. We're no longer debating gut feelings, we're aligning on evidence.",
     author: "Practice Lead",
     role: "Leadership Advisory, APAC",
     initials: "PL",

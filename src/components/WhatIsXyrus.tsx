@@ -84,7 +84,7 @@ export const WhatIsXyrus = () => {
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="text-2xl mb-4">{persona.icon}</div>
+                <div className="font-mono-brand text-xs text-crimson font-bold mb-4">{persona.number}</div>
                 <h3 className="text-base font-bold text-foreground mb-3">{persona.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{persona.description}</p>
               </motion.div>

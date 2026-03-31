@@ -72,7 +72,7 @@ export const SolutionsSection = () => {
                   A bad leadership hire costs time, money, and organizational momentum.
                 </p>
                 <p className="text-steel text-sm leading-relaxed">
-                  xyrus is built to solve this. Not by making the old process faster — by replacing the foundation it runs on.
+                  xyrus.ai is built to solve this. Not by making the old process faster, by replacing the foundation it runs on.
                 </p>
               </div>
             </div>

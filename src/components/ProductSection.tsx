@@ -64,7 +64,7 @@ export const ProductSection = () => {
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            xyrus is XQtiv's 24/7 hiring accelerator. It runs continuously — enriching profiles, updating assessments, and mapping the leadership market in real time. You will have an end-to-end profile of the candidate, before your first interview with them.
+            xyrus.ai is XQtiv's 24/7 hiring accelerator. It runs continuously, enriching profiles, updating assessments, and mapping the leadership market in real time. You will have an end-to-end profile of the candidate, before your first interview with them.
           </p>
         </Reveal>
 
