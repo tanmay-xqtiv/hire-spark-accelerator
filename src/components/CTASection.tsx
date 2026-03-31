@@ -21,7 +21,7 @@ export const CTASection = () => {
               rel="noopener noreferrer"
               className="inline-block bg-crimson text-primary-foreground text-sm font-bold tracking-wider uppercase px-10 py-4 rounded-sm hover:opacity-90 transition-opacity active:scale-[0.97]"
             >
-              Book a Demo
+              Book Demo
             </a>
             <a
               href="mailto:info@xqtiv.com"
