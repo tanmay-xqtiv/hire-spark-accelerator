@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 const personas = [
   {
     title: "For Talent Acquisition Teams",
-    description: "Eliminate weeks of manual market mapping. xyrus gives you a pre-assessed, continuously enriched pool of leadership candidates — so you start every search with clarity, not a blank page.",
-    icon: "🎯",
+    description: "Eliminate weeks of manual market mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity, not a blank page.",
+    number: "01",
   },
   {
     title: "For Candidates",
-    description: "Your profile grows richer with every interaction. xyrus captures your leadership philosophy, strategic thinking, and career trajectory — ensuring you're evaluated on merit, not just a resume.",
-    icon: "👤",
+    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership philosophy, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
+    number: "02",
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus provides the evidence and confidence needed to select leaders who will drive real impact.",
-    icon: "🏛️",
+    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus.ai provides the evidence and confidence needed to select leaders who will drive real impact.",
+    number: "03",
   },
 ];
 
