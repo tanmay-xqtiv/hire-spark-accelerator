@@ -56,7 +56,7 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.25}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Every candidate profile consists of their LinkedIn information, resumes, recruiter conversations, past client feedback — and gets enriched with every interaction. There is never a cold start to a search.
+                Every candidate profile consists of their LinkedIn information, resumes, recruiter conversations, past client feedback and gets enriched with every interaction. There is never a cold start to a search.
               </p>
             </Reveal>
             <Reveal delay={0.3}>
