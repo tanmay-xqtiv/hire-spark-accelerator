@@ -37,7 +37,7 @@ const features = [
   },
   {
     title: "End-to-End Profiles",
-    description: "You will have a complete profile of the candidate — across all five intelligence layers — before your first interview.",
+    description: "You will have a complete profile of the candidate, across all five intelligence layers, before your first interview.",
   },
   {
     title: "Pre-Assessed Talent Pools",
