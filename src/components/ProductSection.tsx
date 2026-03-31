@@ -33,7 +33,7 @@ const layers = [
 const features = [
   {
     title: "Always-On Intelligence",
-    description: "xyrus runs 24/7 — enriching profiles, updating assessments, and mapping the leadership market in real time.",
+    description: "xyrus.ai runs 24/7, enriching profiles, updating assessments, and mapping the leadership market in real time.",
   },
   {
     title: "End-to-End Profiles",
