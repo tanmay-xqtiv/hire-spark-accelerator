@@ -37,7 +37,7 @@ export const SolutionsSection = () => {
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            Senior leaders are hired based on two documents: an "impressive" resume and a job description written under time constraints. The whole story is not told by either. xyrus replaces that broken foundation.
+            Senior leaders are hired based on two documents: an "impressive" resume and a job description written under time constraints. The whole story is not told by either. xyrus.ai replaces that broken foundation.
           </p>
         </Reveal>
 
