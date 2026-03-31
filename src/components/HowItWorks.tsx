@@ -43,7 +43,7 @@ export const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         <Reveal>
           <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
-            How xyrus works
+            How xyrus.ai works
           </span>
         </Reveal>
         <Reveal delay={0.1}>
