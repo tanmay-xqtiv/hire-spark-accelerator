@@ -34,7 +34,7 @@ export const ProblemSection = () => {
                 The JD Problem
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Job descriptions specify what a role entails on paper. They do not describe the difficulties the new leader will face — the operational environment, strategic challenges, and the culture they will inherit.
+                Job descriptions specify what a role entails on paper. They do not describe the difficulties the new leader will face, the operational environment, strategic challenges, and the culture they will inherit.
               </p>
             </div>
           </Reveal>
