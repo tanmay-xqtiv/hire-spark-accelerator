@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 const testimonials = [
   {
-    quote: "xyrus fundamentally changed the way we approach leadership mandates. The pre-assessed candidate pool means we're presenting quality, not volume.",
+    quote: "xyrus.ai fundamentally changed the way we approach leadership mandates. The pre-assessed candidate pool means we're presenting quality, not volume.",
     author: "Search Partner",
     role: "Executive Search, India",
     initials: "SP",
