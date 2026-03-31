@@ -46,7 +46,7 @@ export const WhatIsXyrus = () => {
           <div className="space-y-6">
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Most executive searches spend their first several weeks doing work — mapping the market, identifying who is relevant, and building a baseline understanding of the talent. By the time evaluation begins, speed derails.
+                Most executive searches spend their first several weeks doing work, mapping the market, identifying who is relevant, and building a baseline understanding of the talent. By the time evaluation begins, speed derails.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
