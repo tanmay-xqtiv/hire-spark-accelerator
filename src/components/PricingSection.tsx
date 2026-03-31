@@ -1,47 +1,65 @@
 import { Reveal } from "./Reveal";
-import { Check } from "lucide-react";
 
-const plans = [
+const offerings = [
   {
-    name: "Essentials",
-    description: "For boutique search firms getting started with xyrus.ai.",
-    price: "Contact Us",
-    features: [
-      "Access to pre-assessed talent pool",
-      "Basic competency mapping",
-      "LinkedIn profile enrichment",
-      "Up to 5 active mandates",
-      "Email support",
-    ],
+    tag: "XQtiv",
+    tagColor: "bg-golden/20 text-golden",
+    name: "Partner-led executive search",
+    price: "₹9L / ₹18L",
+    priceLabel: "retainer",
+    extra: "22 – 25% on closure",
+    description:
+      "Indian or global search. Senior partner involvement throughout.",
     highlighted: false,
   },
   {
-    name: "Professional",
-    description: "For growing firms that need deeper intelligence and faster turnarounds.",
-    price: "Contact Us",
-    features: [
-      "Everything in Essentials",
-      "Full 5-layer candidate intelligence",
-      "Recruiter insights & client feedback",
-      "Unlimited active mandates",
-      "Priority support & onboarding",
-      "Custom competency frameworks",
-    ],
+    tag: "xyrus.ai",
+    tagColor: "bg-crimson/10 text-crimson",
+    name: "Platform-led search",
+    price: "$30,000",
+    priceLabel: "on closure",
+    extra: "",
+    description:
+      "Full search, end-to-end. AI-evaluated shortlist with scores, competency matrix, and interview coordination. No upfront cost.",
     highlighted: true,
   },
   {
-    name: "Enterprise",
-    description: "For large practices and global search firms with complex needs.",
-    price: "Contact Us",
-    features: [
-      "Everything in Professional",
-      "Dedicated account manager",
-      "API access & integrations",
-      "Multi-team collaboration",
-      "Custom SLAs & compliance",
-      "White-label reporting",
-    ],
+    tag: "xyrus.ai Lite",
+    tagColor: "bg-green-100 text-green-700",
+    name: "Long list only",
+    price: "$12,000",
+    priceLabel: "flat fee",
+    extra: "",
+    description:
+      "Long list with xyrus.ai score and abstract summary.",
     highlighted: false,
+  },
+];
+
+const packageIncludes = [
+  {
+    title: "Job dossier",
+    description: "A standardised, well-framed JD built for this search",
+  },
+  {
+    title: "Candidate outreach",
+    description: "We reach out on your behalf",
+  },
+  {
+    title: "Candidate resumes",
+    description: "Delivered with evaluation context attached",
+  },
+  {
+    title: "Interview coordination",
+    description: "We schedule and manage candidate touchpoints",
+  },
+  {
+    title: "xyrus.ai score + matrix",
+    description: "AI-powered scoring and competency fit per candidate",
+  },
+  {
+    title: "End-to-end search management",
+    description: "We run the full process, so your team stays focused",
   },
 ];
 
@@ -56,19 +74,20 @@ export const PricingSection = () => {
         </Reveal>
         <Reveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] mt-6 max-w-3xl tracking-tight">
-            Built for search firms of{" "}
-            <span className="text-crimson">every scale.</span>
+            All three{" "}
+            <span className="text-crimson">offerings.</span>
           </h2>
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            Whether you're a solo practitioner or a global search firm, xyrus.ai has a plan that fits your practice.
+            Whether you need a partner-led engagement or a platform-powered search, xyrus.ai has a model that fits.
           </p>
         </Reveal>
 
+        {/* Three offerings */}
         <div className="grid md:grid-cols-3 gap-6 mt-16">
-          {plans.map((plan, i) => (
-            <Reveal key={plan.name} delay={0.2 + i * 0.08}>
+          {offerings.map((plan, i) => (
+            <Reveal key={plan.tag} delay={0.2 + i * 0.08}>
               <div
                 className={`relative rounded-sm p-8 h-full flex flex-col transition-all duration-300 ${
                   plan.highlighted
@@ -76,55 +95,54 @@ export const PricingSection = () => {
                     : "bg-background border border-border hover:border-foreground/20"
                 }`}
               >
-                {plan.highlighted && (
-                  <span className="absolute -top-3 left-8 bg-crimson text-primary-foreground font-mono-brand text-[10px] tracking-widest uppercase px-3 py-1 rounded-sm">
-                    Most Popular
-                  </span>
-                )}
+                <span
+                  className={`inline-block self-start text-xs font-bold px-3 py-1 rounded-sm mb-4 ${plan.tagColor}`}
+                >
+                  {plan.tag}
+                </span>
 
                 <h3
-                  className={`text-xl font-bold ${
+                  className={`text-lg font-bold ${
                     plan.highlighted ? "text-primary-foreground" : "text-foreground"
                   }`}
                 >
                   {plan.name}
                 </h3>
-                <p
-                  className={`text-sm leading-relaxed mt-2 ${
-                    plan.highlighted ? "text-steel" : "text-muted-foreground"
-                  }`}
-                >
-                  {plan.description}
-                </p>
 
-                <div className="mt-6 mb-6">
+                <div className="mt-4 mb-2">
                   <span
-                    className={`text-2xl font-bold ${
+                    className={`text-3xl font-bold ${
                       plan.highlighted ? "text-crimson" : "text-foreground"
                     }`}
                   >
                     {plan.price}
                   </span>
+                  <span
+                    className={`text-sm ml-2 ${
+                      plan.highlighted ? "text-steel" : "text-muted-foreground"
+                    }`}
+                  >
+                    {plan.priceLabel}
+                  </span>
                 </div>
 
-                <ul className="space-y-3 flex-1">
-                  {plan.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
-                      <Check
-                        className={`w-4 h-4 mt-0.5 flex-shrink-0 ${
-                          plan.highlighted ? "text-crimson" : "text-crimson"
-                        }`}
-                      />
-                      <span
-                        className={`text-sm ${
-                          plan.highlighted ? "text-steel" : "text-muted-foreground"
-                        }`}
-                      >
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                {plan.extra && (
+                  <p
+                    className={`text-sm font-semibold mb-4 ${
+                      plan.highlighted ? "text-primary-foreground" : "text-foreground"
+                    }`}
+                  >
+                    {plan.extra}
+                  </p>
+                )}
+
+                <p
+                  className={`text-sm leading-relaxed mt-2 flex-1 ${
+                    plan.highlighted ? "text-steel" : "text-muted-foreground"
+                  }`}
+                >
+                  {plan.description}
+                </p>
 
                 <a
                   href="https://calendly.com"
@@ -142,6 +160,44 @@ export const PricingSection = () => {
             </Reveal>
           ))}
         </div>
+
+        {/* What is included in the $30k package */}
+        <Reveal delay={0.4}>
+          <div className="mt-20">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground tracking-tight">
+              What is included in the $30k package
+            </h3>
+            <div className="w-16 h-0.5 bg-crimson mt-4 mb-8" />
+
+            <div className="grid md:grid-cols-2 gap-0 border border-border rounded-sm overflow-hidden">
+              {packageIncludes.map((item, i) => (
+                <div
+                  key={item.title}
+                  className={`p-6 bg-off-white ${
+                    i % 2 === 0 ? "md:border-r border-border" : ""
+                  } ${i < packageIncludes.length - 2 ? "border-b border-border" : ""} ${
+                    i === packageIncludes.length - 2 || i === packageIncludes.length - 1
+                      ? ""
+                      : ""
+                  }`}
+                  style={{
+                    borderBottom:
+                      i < packageIncludes.length - 2
+                        ? "1px solid hsl(var(--border))"
+                        : i === packageIncludes.length - 2
+                        ? "1px solid hsl(var(--border))"
+                        : "none",
+                  }}
+                >
+                  <h4 className="font-bold text-foreground mb-1">{item.title}</h4>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
