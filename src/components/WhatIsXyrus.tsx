@@ -38,7 +38,7 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed mt-6">
-                We deal with narrowly defined talent pools — identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
+                We deal with narrowly defined talent pools, identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
               </p>
             </Reveal>
           </div>
