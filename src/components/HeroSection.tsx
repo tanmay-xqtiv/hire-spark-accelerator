@@ -49,7 +49,7 @@ export const HeroSection = () => {
                   rel="noopener noreferrer"
                   className="inline-block bg-crimson text-primary-foreground text-sm font-bold tracking-wider uppercase px-8 py-4 rounded-sm hover:opacity-90 transition-opacity active:scale-[0.97]"
                 >
-                  Book a Demo
+                  Book Demo
                 </a>
                 <button
                   onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
