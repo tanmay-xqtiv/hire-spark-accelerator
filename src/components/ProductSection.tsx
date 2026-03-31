@@ -16,7 +16,7 @@ const layers = [
   {
     id: "03",
     title: "Recruiter Insights",
-    description: "Notes and observations from partner conversations with candidates — covering leadership philosophy, strategic thinking, and commercial orientation. This is the layer that documents do not reach.",
+    description: "Notes and observations from partner conversations with candidates, covering leadership philosophy, strategic thinking, and commercial orientation. This is the layer that documents do not reach.",
   },
   {
     id: "04",
