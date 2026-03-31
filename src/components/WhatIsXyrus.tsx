@@ -51,7 +51,7 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-base font-bold text-foreground">
-                xyrus fixes that.
+                xyrus.ai fixes that.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
