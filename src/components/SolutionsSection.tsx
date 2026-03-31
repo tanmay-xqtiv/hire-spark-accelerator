@@ -8,7 +8,7 @@ const solutions = [
   },
   {
     title: "Competency-Based Evaluation",
-    description: "Move beyond resumes. Our structured competency framework assesses candidates on leadership style, decision-making, and strategic orientation — the dimensions that actually predict success.",
+    description: "Move beyond resumes. Our structured competency framework assesses candidates on leadership style, decision-making, and strategic orientation, the dimensions that actually predict success.",
   },
   {
     title: "Continuous Talent Intelligence",
