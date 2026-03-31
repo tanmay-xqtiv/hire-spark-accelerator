@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Essentials",
-    description: "For boutique search firms getting started with xyrus.",
+    description: "For boutique search firms getting started with xyrus.ai.",
     price: "Contact Us",
     features: [
       "Access to pre-assessed talent pool",
