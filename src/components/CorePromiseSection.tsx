@@ -1,7 +1,7 @@
 import { Reveal } from "./Reveal";
 
 const promises = [
-  { value: "5 to 7 days", label: "Shortlist delivered" },
+  { value: "6 days", label: "Shortlist delivered" },
   { value: "Pre-evaluated", label: "Not raw resumes" },
   { value: "Structured view", label: "Score + matrix + match" },
 ];
