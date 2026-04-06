@@ -19,6 +19,7 @@ const Index = () => {
       <HeroSection />
       <WhatIsXyrus />
       <ForCandidatesSection />
+      <ForClientPartnersSection />
       <SolutionsSection />
       <ProductSection />
       <CorePromiseSection />
