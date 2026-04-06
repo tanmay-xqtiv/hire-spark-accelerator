@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const personas = [
   {
     title: "For Talent Acquisition Teams",
-    description: "Eliminate weeks of manual market mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity, not a blank page.",
+    description: "Eliminate weeks of manual talent mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity, not a blank page.",
     number: "01",
   },
   {
@@ -14,7 +14,7 @@ const personas = [
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus.ai provides the evidence and confidence needed to select leaders who will drive real impact.",
+    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus.ai provides the evidence and confidence you need to select leaders who drive real impact.",
     number: "03",
   },
 ];
