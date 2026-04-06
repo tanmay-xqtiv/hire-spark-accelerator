@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { WhatIsXyrus } from "@/components/WhatIsXyrus";
+import { ForCandidatesSection } from "@/components/ForCandidatesSection";
 import { SolutionsSection } from "@/components/SolutionsSection";
 import { ProductSection } from "@/components/ProductSection";
 import { CorePromiseSection } from "@/components/CorePromiseSection";
