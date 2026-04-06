@@ -17,6 +17,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <WhatIsXyrus />
+      <ForCandidatesSection />
       <SolutionsSection />
       <ProductSection />
       <CorePromiseSection />
