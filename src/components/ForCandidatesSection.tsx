@@ -15,7 +15,7 @@ export const ForCandidatesSection = () => {
             <span className="text-white font-semibold">
               xyrus.ai already understands how you lead, how you think, and what you bring to the table
             </span>{" "}
-            — before a single conversation happens. For the first time, you are chosen for who you are, not just what's on paper.
+            before a single conversation happens. For the first time, you are chosen for who you are, not just what's on paper.
           </p>
         </Reveal>
       </div>
