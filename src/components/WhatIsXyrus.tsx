@@ -14,7 +14,7 @@ const personas = [
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Make strategic hiring decisions backed by structured competency data, not instinct. xyrus.ai provides the evidence and confidence you need to select leaders who drive real impact.",
+    description: "Make strategic hiring decisions backed by structured competency framework, not instinct. xyrus.ai provides the evidence and confidence you need to select leaders who drive real impact.",
     number: "03",
   },
 ];
