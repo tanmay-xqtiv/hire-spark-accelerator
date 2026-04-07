@@ -14,8 +14,12 @@ export const ForClientPartnersSection = () => {
             Stop hiring leaders who fit the job description.{" "}
             <span className="text-white font-semibold">
               Start hiring leaders who redefine it.
-            </span>{" "}
-            <span className="text-white font-semibold">xyrus.ai</span> sees beyond credentials. It identifies the commercial instinct, the leadership edge, and the deal-maker edge that no resume can capture.
+            </span>
+          </p>
+        </Reveal>
+        <Reveal delay={0.2}>
+          <p className="text-lg md:text-xl lg:text-2xl text-white/70 leading-relaxed mt-8 font-light tracking-tight">
+            <span className="text-white font-semibold">xyrus.ai</span> sees beyond. It identifies the commercial instinct, the leadership edge, and the deal-maker edge that no resume can capture.
           </p>
         </Reveal>
       </div>
