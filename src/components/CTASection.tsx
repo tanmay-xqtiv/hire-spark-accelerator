@@ -24,7 +24,7 @@ export const CTASection = () => {
               Book Demo
             </a>
             <a
-              href="mailto:info@xqtiv.com"
+              href="mailto:support@xyrus.ai"
               className="inline-block border border-steel-20 text-steel text-sm font-bold tracking-wider uppercase px-10 py-4 rounded-sm hover:text-primary-foreground hover:border-primary-foreground/30 transition-colors active:scale-[0.97]"
             >
               Contact Us
