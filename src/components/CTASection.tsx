@@ -39,8 +39,8 @@ export const CTASection = () => {
               <div className="font-mono-brand text-[10px] tracking-[0.3em] text-steel uppercase mb-3">
                 Email
               </div>
-              <a href="mailto:info@xqtiv.com" className="text-sm text-primary-foreground hover:text-crimson transition-colors">
-                info@xqtiv.com
+              <a href="mailto:support@xyrus.ai" className="text-sm text-primary-foreground hover:text-crimson transition-colors">
+                support@xyrus.ai
               </a>
             </div>
             <div>
