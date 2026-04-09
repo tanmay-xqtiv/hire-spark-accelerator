@@ -24,7 +24,7 @@ export const CTASection = () => {
               Book Demo
             </a>
             <a
-              href="mailto:info@xqtiv.com"
+              href="mailto:support@xyrus.ai"
               className="inline-block border border-steel-20 text-steel text-sm font-bold tracking-wider uppercase px-10 py-4 rounded-sm hover:text-primary-foreground hover:border-primary-foreground/30 transition-colors active:scale-[0.97]"
             >
               Contact Us
@@ -39,8 +39,8 @@ export const CTASection = () => {
               <div className="font-mono-brand text-[10px] tracking-[0.3em] text-steel uppercase mb-3">
                 Email
               </div>
-              <a href="mailto:info@xqtiv.com" className="text-sm text-primary-foreground hover:text-crimson transition-colors">
-                info@xqtiv.com
+              <a href="mailto:support@xyrus.ai" className="text-sm text-primary-foreground hover:text-crimson transition-colors">
+                support@xyrus.ai
               </a>
             </div>
             <div>
