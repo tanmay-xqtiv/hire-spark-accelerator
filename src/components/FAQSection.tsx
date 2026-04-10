@@ -87,13 +87,8 @@ export const FAQSection = () => {
     <section id="faq" className="py-24 md:py-32 section-padding bg-background">
       <div className="max-w-4xl mx-auto">
         <Reveal>
-          <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
-            FAQs
-          </span>
-        </Reveal>
-        <Reveal delay={0.1}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] mt-6 tracking-tight">
-            Frequently Asked Questions
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] tracking-tight">
+            FAQ's
           </h2>
         </Reveal>
 
