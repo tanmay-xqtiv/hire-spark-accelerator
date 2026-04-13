@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     title: "Founder and CEO",
-    company: "Of a $US$D 100M pharmaceutical startup with a unique platform-based business model",
+    company: "Of a USD 100 Million pharmaceutical startup with a unique platform-based business model",
     quote: "\"XQtiv helped us hire a CFO in record team in spite of a very narrow set of requirements. They constructed the target set of candidates in a methodical and rigorous manner and presented us 2 candidates. We offered the first candidate we spoke to. They were brilliant!\"",
   },
 ];
