@@ -50,7 +50,10 @@ export const TestimonialsSection = () => {
     <section className="py-24 md:py-32 section-padding bg-off-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <Reveal>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-[1.15] tracking-tight max-w-4xl">
+          <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
+            Testimonials
+          </span>
+          <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-[1.15] tracking-tight max-w-4xl">
             Our clients love us for the dedication and depth.{" "}
             <span className="text-crimson">They value our business knowledge and unorthodox strategies.</span>
           </h2>
