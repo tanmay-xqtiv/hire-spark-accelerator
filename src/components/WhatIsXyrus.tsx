@@ -14,7 +14,7 @@ const personas = [
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Move beyond intuition-led hiring. xyrus.ai surfaces candidates pre-assessed against structured competency frameworks, giving you intelligence-backed shortlists so every leadership appointment is grounded in data, not guesswork.",
+    description: "Move beyond intuition-led hiring. xyrus.ai delivers intelligence-backed shortlists built on structured competency frameworks, so every leadership appointment is grounded in data, not guesswork.",
     number: "03",
   },
 ];
