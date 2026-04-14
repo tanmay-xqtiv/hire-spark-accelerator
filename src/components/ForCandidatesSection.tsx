@@ -6,7 +6,7 @@ export const ForCandidatesSection = () => {
       <div className="max-w-5xl mx-auto">
         <Reveal>
           <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
-            For Candidates
+            Dear Candidates
           </span>
         </Reveal>
         <Reveal delay={0.1}>
