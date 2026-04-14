@@ -9,12 +9,12 @@ const personas = [
   },
   {
     title: "For Candidates",
-    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership philosophy, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
+    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership capabilities, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
     number: "02",
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Make strategic hiring decisions backed by structured competency framework, not instinct. xyrus.ai provides the evidence and confidence you need to select leaders who drive real impact.",
+    description: "Move beyond intuition-led hiring. xyrus.ai surfaces candidates pre-assessed against structured competency frameworks, giving you intelligence-backed shortlists so every leadership appointment is grounded in data, not guesswork.",
     number: "03",
   },
 ];
