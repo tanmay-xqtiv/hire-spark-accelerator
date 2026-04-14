@@ -2,8 +2,8 @@ import { Reveal } from "./Reveal";
 
 const promises = [
   { value: "6 days", label: "Shortlist delivered" },
-  { value: "Pre-evaluated", label: "Not raw resumes" },
-  { value: "Structured view", label: "Score + matrix + match" },
+  { value: "Pre-assessed", label: "Not raw resumes" },
+  { value: "Structured view", label: "xyrus match + role-specific match + 360° candidate profile" },
 ];
 
 export const CorePromiseSection = () => {
@@ -16,7 +16,7 @@ export const CorePromiseSection = () => {
           </span>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] mt-6 max-w-3xl tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-crimson leading-[1.05] mt-6 max-w-3xl tracking-tight">
             The core promise
           </h2>
         </Reveal>
