@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
   );
 
   return (
-    <section className="py-24 md:py-32 section-padding bg-off-white overflow-hidden">
+    <section className="py-16 md:py-20 section-padding bg-off-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <Reveal>
           <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">

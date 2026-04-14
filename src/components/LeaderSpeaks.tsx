@@ -3,7 +3,7 @@ import tarunGoel from "@/assets/tarun-goel.png";
 
 export const LeaderSpeaks = () => {
   return (
-    <section className="py-24 md:py-32 section-padding bg-off-white">
+    <section className="py-16 md:py-20 section-padding bg-off-white">
       <div className="max-w-5xl mx-auto">
         <Reveal>
           <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
