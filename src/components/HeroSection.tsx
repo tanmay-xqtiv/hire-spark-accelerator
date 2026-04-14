@@ -29,7 +29,7 @@ export const HeroSection = () => {
 
             <Reveal delay={0.2}>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[0.95] tracking-tight mb-8">
-                Precision in Talent.
+                <span className="text-crimson">Precision</span> in Talent.
                 <br />
                 <span className="text-crimson">Speed</span> in Decisions.
               </h1>
@@ -51,12 +51,6 @@ export const HeroSection = () => {
                 >
                   Book Demo
                 </a>
-                <button
-                  onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
-                  className="text-sm font-mono-brand tracking-wider text-steel hover:text-primary-foreground transition-colors uppercase border border-steel-20 px-8 py-4 rounded-sm active:scale-[0.97]"
-                >
-                  Learn More →
-                </button>
               </div>
             </Reveal>
           </div>
