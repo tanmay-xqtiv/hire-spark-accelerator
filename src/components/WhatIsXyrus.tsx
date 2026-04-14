@@ -61,7 +61,7 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.3}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed using our structured competency framework.
+                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed against our structured competency framework.
               </p>
             </Reveal>
           </div>
