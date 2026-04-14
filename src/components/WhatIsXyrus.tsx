@@ -8,13 +8,13 @@ const personas = [
     number: "01",
   },
   {
-    title: "For Candidates",
+    title: "Dear Candidates",
     description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership capabilities, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
     number: "02",
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Move beyond intuition-led hiring. xyrus.ai delivers intelligence-backed shortlists built on structured competency frameworks, so every leadership appointment is grounded in data, not guesswork.",
+    description: "Move beyond intuition-led hiring. xyrus.ai delivers intelligence-backed shortlists built on structured competency frameworks, so every leadership decision is grounded in data, not guesswork.",
     number: "03",
   },
 ];
