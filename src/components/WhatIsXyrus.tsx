@@ -46,7 +46,7 @@ export const WhatIsXyrus = () => {
           <div className="space-y-6">
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Most executive searches spend their first several weeks doing work, mapping the market, identifying who is relevant, and building a baseline understanding of the talent. By the time evaluation begins, speed derails.
+                Most executive searches spend their first several weeks just doing the groundwork — mapping the market, identifying who is relevant, and building a baseline understanding of the talent landscape. By the time evaluation begins, momentum has already been lost.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
@@ -56,12 +56,12 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.25}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Every candidate profile consists of their LinkedIn information, resumes, recruiter conversations, past client feedback and gets enriched with every interaction. There is never a cold start to a search.
+                Every candidate profile — built from their LinkedIn information, resumes, recruiter conversations, and past client feedback — gets enriched with every interaction. There is never a cold start to a search.
               </p>
             </Reveal>
             <Reveal delay={0.3}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed using our structured competency framework.
+                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed against our structured competency framework.
               </p>
             </Reveal>
           </div>
