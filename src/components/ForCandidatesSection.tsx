@@ -11,7 +11,7 @@ export const ForCandidatesSection = () => {
         </Reveal>
         <Reveal delay={0.1}>
           <p className="text-xl md:text-2xl lg:text-3xl text-white/90 leading-snug mt-6 font-light tracking-tight">
-            You are not just another resume in a pile.{" "}
+            Your leadership story deserves to be told with depth and precision.{" "}
             <span className="text-white font-semibold">
               xyrus.ai already understands how you lead, how you think, and what you bring to the table
             </span>{" "}

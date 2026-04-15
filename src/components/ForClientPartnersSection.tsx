@@ -15,7 +15,7 @@ export const ForClientPartnersSection = () => {
             <span className="text-white font-semibold">
               Start hiring leaders who redefine it.
             </span>{" "}
-            xyrus.ai is currently live with a narrowly defined, curated pool of Client Partners across industries — built to help you identify and retain the leadership talent that moves your business forward.
+            xyrus.ai is currently live with a narrowly defined, curated pool of Client Partners across industries, built to help you identify and retain the leadership talent that moves your business forward.
           </p>
         </Reveal>
       </div>
