@@ -12,13 +12,8 @@ export const CorePromiseSection = () => {
       <div className="max-w-7xl mx-auto">
         <Reveal>
           <span className="font-mono-brand text-xs tracking-[0.3em] text-crimson uppercase">
-            Promise
-          </span>
-        </Reveal>
-        <Reveal delay={0.1}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-crimson leading-[1.05] mt-6 max-w-3xl tracking-tight">
             The core promise
-          </h2>
+          </span>
         </Reveal>
 
         <div className="grid md:grid-cols-3 gap-0 mt-12 border border-border rounded-sm overflow-hidden">
