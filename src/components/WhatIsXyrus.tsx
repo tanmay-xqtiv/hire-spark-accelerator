@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 const personas = [
   {
     title: "For Talent Acquisition Teams",
-    description: "Eliminate weeks of manual talent mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity, not a blank page.",
+    description: "Eliminate weeks of manual talent mapping. xyrus.ai gives you a pre-assessed, continuously enriched pool of leadership candidates so you start every search with clarity and a qualified shortlist.",
     number: "01",
   },
   {
     title: "Dear Candidates",
-    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership capabilities, strategic thinking, and career trajectory, ensuring you're evaluated on merit, not just a resume.",
+    description: "Your profile grows richer with every interaction. xyrus.ai captures your leadership capabilities, strategic thinking, and career trajectory, ensuring you are evaluated on merit and depth.",
     number: "02",
   },
   {
     title: "For C-Suite & Board Members",
-    description: "Move beyond intuition-led hiring. xyrus.ai delivers intelligence-backed shortlists built on structured competency frameworks, so every leadership decision is grounded in data, not guesswork.",
+    description: "xyrus.ai delivers intelligence-backed shortlists built on structured competency frameworks, so every leadership decision is grounded in data and evidence.",
     number: "03",
   },
 ];
@@ -33,12 +33,12 @@ export const WhatIsXyrus = () => {
             <Reveal delay={0.1}>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] mt-6 tracking-tight">
                 A candidate intelligence accelerator.{" "}
-                <span className="text-muted-foreground">Not a resume database.</span>
+                <span className="text-muted-foreground">Built on structured competency frameworks.</span>
               </h2>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="text-base text-muted-foreground leading-relaxed mt-6">
-                We deal with narrowly defined talent pools, identifying, enriching, and pre-assessing leaders across industries so our clients never start from scratch.
+                We deal with narrowly defined talent pools, identifying, enriching, and pre-assessing leaders across industries so our clients start every search with clarity.
               </p>
             </Reveal>
           </div>
@@ -51,17 +51,17 @@ export const WhatIsXyrus = () => {
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-base font-bold text-foreground">
-                xyrus.ai fixes that.
+                xyrus.ai changes that entirely.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Every candidate profile, built from their LinkedIn information, resumes, recruiter conversations, and past client feedback, gets enriched with every interaction. There is never a cold start to a search.
+                Every candidate profile, built from their LinkedIn information, resumes, recruiter conversations, and past client feedback, gets enriched with every interaction. Every search begins with a pre-assessed, continuously updated pool of leadership talent.
               </p>
             </Reveal>
             <Reveal delay={0.3}>
               <p className="text-base text-muted-foreground leading-relaxed">
-                When a new mandate arrives, xyrus.ai already has a pool of leaders that have been pre-assessed against our structured competency framework.
+                When a new mandate arrives, xyrus.ai already has a pool of leaders assessed against structured, role-specific competency frameworks validated by senior partners.
               </p>
             </Reveal>
           </div>
@@ -97,7 +97,7 @@ export const WhatIsXyrus = () => {
           <div className="mt-20 pt-12 border-t border-border flex items-center gap-6">
             <div className="w-12 h-[1px] bg-crimson" />
             <p className="text-lg md:text-xl lg:text-2xl text-steel font-light tracking-tight italic">
-              An executive search process that begins with clarity, not guesswork.
+              Structured talent intelligence that complements the judgement of those who hire leaders.
             </p>
           </div>
         </Reveal>

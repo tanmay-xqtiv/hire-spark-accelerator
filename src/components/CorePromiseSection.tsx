@@ -2,8 +2,8 @@ import { Reveal } from "./Reveal";
 
 const promises = [
   { value: "6 days", label: "Shortlist delivered" },
-  { value: "Pre-assessed", label: "Not raw resumes" },
-  { value: "Structured view", label: "xyrus match + role-specific match + 360° candidate profile" },
+  { value: "Pre-assessed", label: "Structured candidate profiles" },
+  { value: "Structured view", label: "xyrus score + role match + 360° profile" },
 ];
 
 export const CorePromiseSection = () => {

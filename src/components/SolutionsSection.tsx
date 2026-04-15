@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const solutions = [
   {
     title: "Executive Search Acceleration",
-    description: "Stop starting every search from scratch. xyrus.ai pre-maps and pre-assesses leadership talent continuously, so every new mandate starts with a qualified pool, not a cold search.",
+    description: "Every search begins with a pre-mapped, pre-assessed pool of leadership talent. xyrus.ai continuously enriches candidate profiles so your team moves straight to evaluation.",
   },
   {
     title: "Competency-Based Evaluation",
-    description: "Move beyond resumes. Our structured competency framework assesses candidates on leadership style, decision-making, strategic orientation, and industry depth, the dimensions that actually predict success.",
+    description: "Our structured competency framework assesses candidates on leadership style, decision-making, strategic orientation, and industry depth — the dimensions that actually predict success in senior roles.",
   },
   {
     title: "Continuous Talent Intelligence",
@@ -16,7 +16,7 @@ const solutions = [
   },
   {
     title: "Evidence-Backed Hiring Decisions",
-    description: "Give your clients and stakeholders data-driven confidence. Every shortlist is backed by structured assessments, not opinion.",
+    description: "Give your clients and stakeholders data-driven confidence. Every shortlist is backed by structured assessments, competency scores, and validated candidate 360° profiles.",
   },
 ];
 
@@ -31,13 +31,13 @@ export const SolutionsSection = () => {
         </Reveal>
         <Reveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.05] mt-6 max-w-3xl tracking-tight">
-            Leadership hiring is a high-stakes process run on{" "}
-            <span className="text-crimson">low-quality data.</span>
+            Leadership hiring deserves{" "}
+            <span className="text-crimson">structured talent intelligence.</span>
           </h2>
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-base text-muted-foreground leading-relaxed mt-6 max-w-2xl">
-            Senior leaders are hired based on two documents: an "impressive" resume and a job description written under time constraints. The whole story is not told by either. xyrus.ai replaces that broken foundation.
+            xyrus.ai replaces decision-making based on resumes and job descriptions with structured candidate intelligence — competency frameworks built for each narrowly defined role, and 360° profiles that capture how leaders actually operate.
           </p>
         </Reveal>
 
@@ -69,10 +69,10 @@ export const SolutionsSection = () => {
               <div className="w-1 h-12 bg-crimson rounded-full flex-shrink-0 mt-1" />
               <div>
                 <p className="text-primary-foreground text-lg font-bold mb-2">
-                  A bad leadership hire costs time, money, and organizational momentum.
+                  Every leadership hire shapes the trajectory of an organization.
                 </p>
                 <p className="text-steel text-sm leading-relaxed">
-                  xyrus.ai is built to solve this. Not by making the old process faster, by replacing the foundation it runs on.
+                  xyrus.ai ensures that decision is grounded in structured intelligence, competency frameworks, and continuously enriched candidate profiles.
                 </p>
               </div>
             </div>
